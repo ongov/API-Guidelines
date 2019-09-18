@@ -35,7 +35,7 @@ You should read these guidelines if you are a:
 
 * **software developer** or **systems architect** looking for technical guidance
 * **product manager** on an API product who needs to understand the context
-* **business analyst**considering whether an API is a good solution for your problem
+* **business analyst** considering whether an API is a good solution for your problem
 * **policy advisor** on a digital service looking to better understand how APIs can help fulfill policy goals
 * **content designer**, **experience designer**, or a practitioner of any **other relevant discipline** who wants to familiarize themselves with the principles outlined here so they can add their perspective
 
@@ -64,7 +64,7 @@ Make sure that the design of your API takes into account the different ways it m
 
 If you need to restrict an audience’s access to certain components, build in user management capabilities instead of building multiple APIs. This approach will also highlight potential security issues from the beginning, when they can be addressed proactively.
 
-### Talk to your users [DSS #1](https://www.ontario.ca/page/digital-service-standard)
+### Talk to your users [DSS #1](https://www.ontario.ca/page/digital-service-standard#section-1)
 Work with the people who will be using the API to make sure that your architecture and design meet their needs. Engage user experience design experts to conduct research with:
 
 * technical users
@@ -75,7 +75,7 @@ APIs should be built to meet specific business requirements to solve concrete pr
 ### Use open standards [DSS #9](https://www.ontario.ca/page/digital-service-standard#section-9)
 Wherever possible, build your API using open source tools, frameworks and standards. The open source communities that develop these tools work through collaboration and consensus-building, and participants range from individual contributors working in their free time to large technology companies. The diversity of voices ensures that tools aim for interoperability, security, reliability and accessibility. Plus, because these tools aren’t tied to a particular vendor or system, you’re sure not to exclude users from outside the OPS.
 
-### Iterate frequently [DSS #8](https://www.ontario.ca/page/digital-service-standard#section-10)
+### Iterate frequently [DSS #8](https://www.ontario.ca/page/digital-service-standard#section-8)
 The Ontario Digital Service Standard includes [an agile approach to development](https://www.ontario.ca/page/digital-service-standard#section-8). This means building your application in "iterations" that improve one set of features at a time so you can:
 
 * quickly test your service with real users
@@ -366,7 +366,7 @@ Each API must be accompanied by concise and up-to-date documentation on how to c
 Your documentation should include:
 
 * the technical specifications or contract of the API
-* how developers can use your API, including configuration, [authentication](##have-a-clearly-defined-access-policy) and [rate-limiting](#rate-limit-user-access-where-appropriate)
+* how developers can use your API, including configuration, [authentication](#have-a-clearly-defined-access-policy) and [rate-limiting](#rate-limit-user-access-where-appropriate)
 * information about API availability, [versioning](#use-semantic-versioning), and incident management
 * [point of contact](#broadcast-your-intentions-dss-5) and a way for users to stay up-to-date with planned changes
 
