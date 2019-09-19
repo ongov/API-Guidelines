@@ -8,7 +8,7 @@ Contact: [digital.standard@ontario.ca](mailto:digital.standard@ontario.ca)
 *We’re in the early days of bringing these guidelines to life. We encourage you to adopt as much of the guidelines as possible, and to share your feedback with us. You can send us an email [digital.standard@ontario.ca](mailto:digital.standard@ontario.ca), or see [CONTRIBUTING.md](CONTRIBUTING.md) for more details.*
 
 Contents:
-* [**API Guidelines**](GUIDELINES.md)
+* [**API Guidelines**](API-Guidelines.md)
 * [Contribution guidelines](CONTRIBUTING.md)
 * [License](LICENSE.md)
 

@@ -8,7 +8,7 @@ Contact :  [digital.standard@ontario.ca](mailto:digital.standard@ontario.ca)
 *Nous commençons à peine à donner vie à ces lignes directrices. Nous vous encourageons à adopter ces lignes directrices le plus possible et de nous transmettre vos commentaires. Vous pouvez nous envoyer un courriel à [digital.standard@ontario.ca](mailto:digital.standard@ontario.ca), ou consulter [CONTRIBUTIONS-FR.md](CONTRIBUTIONS-FR.md) pour obtenir de plus amples renseignements.*
 
 Contenu:
-* [**Lignes directrices sur les API**](LIGNES_DIRECTRICES-FR.md)
+* [**Lignes directrices sur les API**](Lignes-directrices-sur-les-API.md)
 * [Lignes directrices en matière de contributions](CONTRIBUTIONS-FR.md)
 * [Licence](LICENCE-FR.md)
 
