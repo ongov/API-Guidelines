@@ -34,6 +34,7 @@ For teams in the Ontario Public Service, APIs also make it easier for agencies t
 ### Who this guide is for
 You should read these guidelines if you are a:
 
+* **executives**, **directors** and **managers** looking to deliver interoperable digital services
 * **software developer** or **systems architect** looking for technical guidance
 * **product manager** on an API product who needs to understand the context
 * **business analyst** considering whether an API is a good solution for your problem
