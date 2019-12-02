@@ -154,7 +154,7 @@ For example, an endpoint that provides information about ServiceOntario location
 ```
 
 #### Return data as JSON
-Use JavaScript Object Notation ([JSON](https://www.json.org/)) and other JSON-based representations (such as [JSON-LD](https://json-ld.org/)) to transmit data between a client and a server. Responses that the API sends to the client should be formed as objects, and not as arrays. Arrays are not robust enough for including adequate metadata about the result object and can make it more difficult to iterate on the data design.
+Use JavaScript Object Notation ([JSON](https://www.json.org/)) and other JSON-based representations (such as [JSON-LD](https://json-ld.org/)) to transmit data between a client and a server. Responses that the API sends to the client should be formed as objects, and not as arrays or values. Arrays are not robust enough for including adequate metadata about the result object and can make it more difficult to iterate on the data design.
 
 For example, an endpoint that lists all ServiceOntario locations should include information about how many there are.
 
