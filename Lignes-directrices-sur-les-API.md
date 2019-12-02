@@ -154,7 +154,7 @@ Par exemple, un point terminal qui fournit des renseignements sur les emplacemen
 ```
 
 #### Renvoyez les données en format JSON
-Utilisez la notation des objets du langage JavaScript ([JSON](https://www.json.org/) (en anglais)) et d'autres représentations basées sur JSON (comme [JSON-LD](https://json-ld.org/) (en anglais)) pour transmettre des données entre un client et un serveur. Les réponses envoyées par l'API au client devraient être formées comme des objets et non des tableaux. Les tableaux ne sont pas suffisamment robustes pour inclure des métadonnées adéquates concernant l'objet résultat, ce qui peut rendre plus difficile l'itération lors de la conception des données.
+Utilisez la notation des objets du langage JavaScript ([JSON](https://www.json.org/) (en anglais)) et d'autres représentations basées sur JSON (comme [JSON-LD](https://json-ld.org/) (en anglais)) pour transmettre des données entre un client et un serveur. Les réponses envoyées par l'API au client devraient être formées comme des objets et non des tableaux ou des valeurs. Les tableaux ne sont pas suffisamment robustes pour inclure des métadonnées adéquates concernant l'objet résultat, ce qui peut rendre plus difficile l'itération lors de la conception des données.
 
 Par exemple, un point terminal qui énumère tous les emplacements de ServiceOntario devrait inclure leur nombre.
 
