@@ -240,7 +240,7 @@ All response data should be meaningful to the client, and should not expose any 
 Use Unicode Transformation Format-8 ([UTF-8](http://unicode.org/faq/utf_bom.html#utf8-1)) as the standard encoding type for all text and textual representations of data through APIs. If technical or business constraints require the use of an encoding standard other than UTF-8, clearly identify the standard in the charset response header and API documentation.
 
 #### Use consistent date-time format
-Follow the international standard [ISO 8601](https://www.iso.org/standard/40874.html) in Coordinated Universal Time ([UTC](https://www.timeanddate.com/time/aboututc.html)) for standard datetime fields in data returned by the API. The date format is `<yyyy-mm-dd>`, and the timestamp format is `<yyyy-mm-dd>T<hh:mm:ss>Z` in 24-hour time. This allows for the same date representation in both official languages. Any other representation of time in the source data must be converted to this format by the API.
+Follow the international standards [RFC 3339](https://tools.ietf.org/html/rfc3339) or [ISO 8601](https://www.iso.org/standard/40874.html) in Coordinated Universal Time ([UTC](https://www.timeanddate.com/time/aboututc.html)) for standard datetime fields in data returned by the API. These allow for the same date representation in both official languages in 24-hour time. Any other representation of time in the source data must be converted to this format by the API.
 
 ### Iterate thoughtfully
 Take care to minimize the impact of your agile and iterative development on users so that they don't experience unnecessary or unexpected disruptions.
