@@ -381,8 +381,7 @@ Your documentation should include:
 One effective way to help users get started quickly with your API is to publish code that makes use of it, such as test cases and validation data. See section on [testing continuously](#test-continuously). Example source code can be released on the [OPS Github Account](https://github.com/ongov).
 
 #### Use OpenAPI for RESTful APIs
-Use the [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) for RESTful APIs, which will create a machine-readable interface specification. There are open source tools (e.g., [Swagger](https://swagger.io/solutions/api-documentation/)) which can then generate human-readable documentation from this specification, which avoids the need to create and maintain separate documentation.
-
+Use the [OpenAPI 3.0.n Specification](https://github.com/OAI/OpenAPI-Specification) for RESTful APIs. There are open source tools (e.g., [Swagger](https://swagger.io/solutions/api-documentation/)) which can be used to generate this code and create interactive, human-readable documentation for this specification. This specification avoids the need to create and maintain separate documentation.
 #### WSDLs for SOAP
 Each SOAP API must be accompanied with a Web Services Description Language ([WSDL](http://www.w3.org/TR/2007/REC-wsdl20-primer-20070626/)) contract. The WSDL is a machine-readable specification which allows the API consumer developer to generate the consumer code.
 
